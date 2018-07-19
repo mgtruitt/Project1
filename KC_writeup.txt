@@ -1,0 +1,19 @@
+## WRITEUP ##
+
+# QUESTION: How does time of the year affect the amount of violation tickets issued, and is this affected by the weather and temperature for each month?
+- It appears that for most of the months, there does not seem to be a significant pattern for how violation tickes between month by month. 
+Though there is a huge spike in violation tickets in January, and there is a slight dip in December.
+- There does not appear to be much of a connection between temperature and parking violations.
+- Interestingly, there is a bit of a dip of parking violations in July, the month with the most precipitation, while June has on average more violations and less precipitation
+- January has the largest percentage of violations out of all of the months.
+
+# QUESTION: How does the day of the week affect the amount of violations, and whether it differs among seasons?
+- Violations are lowest on Sunday, and steadily increases until it peaks on Wednesday, and then steadily decreases for the rest of the week.
+- Total violations are about the same for each of the seasons, though average violations are a tiny bit higher for the winter. 
+- - This may be due to fact there is a massive spike in January counts, and a slight dip in December counts.
+
+# PROBLEMS and whatnot
+- Weather data is based on the data from the National Arborem
+- The data is missing timestamps for many of the entries, so we did not examine how violations differ throughout the day. 
+- The data includes "TICKET_ISSUE_DATE" which is the date when the ticket was issued, rather than when the violation was committed.
+Thus what we're looking at is more of how officers change their ticket giving behavior, rather than the violators themselves.
